@@ -1,0 +1,17 @@
+{
+  "name": "fee-calculator",
+  "version": "1.0.0",
+  "description": "A fee calculator.",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "start": "ts-node ./src/index.ts"
+  },
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^20.6.5",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.2.2"
+  }
+}
