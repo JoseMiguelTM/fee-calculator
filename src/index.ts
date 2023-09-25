@@ -53,6 +53,7 @@ function getPricesOfEachOrder() {
         })
         // This is the total amount of the order
         console.log(`Order total: $${total}`);
+        console.log("")
     })
 }
 
@@ -106,6 +107,7 @@ function getDistributions() {
             });
             totalDistBirthCerts = sum;
         }
+        console.log('')
     });
     // Displaying the total distributions for the Real Property Recording and Birth Certificate
     console.log("Total distributions")
@@ -124,8 +126,9 @@ function getDistributions() {
 }
 
 function main() {
+    console.log('**----Part 1----**');
     getPricesOfEachOrder();
-    console.log('**--------**')
+    console.log('**----Part 2----**');
     getDistributions();
 }
 

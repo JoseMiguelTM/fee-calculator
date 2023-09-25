@@ -1,3 +1,7 @@
+# How to run
+This code are made with Node.js and Typescript, please first use npm install to install all the required dependencies
+Then, to run the application, please use npm start, application will start and show the both parts of the challenge with the required logs
+
 Part 1: Fees
 
 The file fees.json describes fees that are applied to different types of items in an order. Each type of item in a order can have one or more fees associated with it.
